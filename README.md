@@ -1,4 +1,5 @@
-# DASTAK
+# DASTAK | <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C Language"> C Language </img>
+
 “DASTAK” is a home-service program created in C language. It allows the user to book home-service providers such as a handy-man, electrician or plumber.
 
 Out of many reasons “DASTAK” came into being, the most important one is the current situation due to COVID-19 pandemic, which has led people to prioritizing online services. Moreover, this service has been developed in order to facilitate all its users, by providing them with a platform where they can book different categories of home-service providers with just one click and hire trained, and reliable professionals.
@@ -21,7 +22,11 @@ void account_check();
 //validates password
 int validate();
 ```
-![]()
+![](https://github.com/WardaaNajamm/DASTAK/blob/main/pic1.png)
+
+![](https://github.com/WardaaNajamm/DASTAK/blob/main/pic2.png)
+
+![](https://github.com/WardaaNajamm/DASTAK/blob/main/pic3.png)
 
 2. In order to display a list in front of the user of the profession that they may have selected earlier, we are going to use different functions that have specific details of professionals of that particular profession.
 
@@ -33,6 +38,9 @@ void search_Carpenter(void);
 void search_Car_Services(void);
 void search_Handyman_Services(void);
 ```
+![](https://github.com/WardaaNajamm/DASTAK/blob/main/pic4.png)
+
+![](https://github.com/WardaaNajamm/DASTAK/blob/main/pic5.png)
     
 3. Here we will ask the user to mention any specific details that they might want the professional to follow or look into. The user will also be asked how long the task is for which they require the professional.
 For every professional a separate detail function has been made.
@@ -45,18 +53,21 @@ void booking_detail_carpenter(int professional_choice3);
 void booking_detail_carservices(int professional_choice4);
 void booking_detail_handyman(int professional_choice5);
 ```
+![](https://github.com/WardaaNajamm/DASTAK/blob/main/pic6.png)
     
 4. This will be the last function of the program where it will display details of the professional the user might have booked and the total payment with different options.
 
 ```cpp
 void cart(int professional_choice, int work_hours);
 ```
+![](https://github.com/WardaaNajamm/DASTAK/blob/main/pic7.png)
     
 5. In order to add different colours on the output screen we have used this function.
 
 ```cpp
 void SetColor(int ForgC);
 ```
+![](https://github.com/WardaaNajamm/DASTAK/blob/main/pic8.png)
 
 6. We have used two structures in this program, one is for the details of the user while the other one is for the details of the professional. As we included 5 main professions for house fixing works we have used 5 different variables for struct profession that is a[5], b[5], c[5], d[5], e[5].
 
